@@ -1,0 +1,209 @@
+body{
+    overflow-x: hidden;
+}
+
+.navbar{
+    background-color: lightgoldenrodyellow;
+    width: 1263px;
+    height: 100px;
+    padding: 2rem 0 2rem;
+}
+
+.nav a:hover{
+    color: lightcoral;
+}
+
+.nav-link{
+    color: green;
+}
+
+#navbarNavAltMarkup{
+    position: relative;
+    left: 500px;
+}
+
+.main{
+    background-image: url("img/study.jpg");
+    height: 500px;
+    background-position: center;
+    /* background-attachment: fixed; */
+}
+
+.main h2{
+    padding-top: 100px;
+    text-align: center;
+}
+
+.main p{
+    text-align: center;
+    padding-top: 30px;
+}
+
+.main .btn{
+    margin-top: 150px;
+    margin-left: 600px;
+}
+
+.products h2{
+    text-align: center;
+}
+
+.card-body{
+    text-align: center;
+}
+
+.card:hover{
+    box-shadow: 0px 3px 65px 0px rgba(0,0,0,.50);
+}
+
+.explore .btn{
+    margin-left: 550px;
+}
+
+.content-img{
+    float: right;
+    position: relative;
+    bottom: 365px;
+    /* left: 120px; */
+}
+
+.slide {
+    background-color: slategrey;
+    text-align: center;
+  }
+  
+  .testimonial-text {
+    font-size: 2rem;
+    line-height: 1.5;
+    position: relative;
+    bottom: 40px;
+  }
+  
+  .testimonial-image {
+    width: 20%;
+    border-radius: 100%;
+    margin: 0px auto 50px;
+  }
+
+footer{
+    background-color: lightgray;
+    position: relative;
+    /* top: -260px; */
+    padding-left: 30px;
+}
+
+footer .pages{
+    text-align: center;
+    position: relative;
+    top: 45px;
+}
+
+footer a{
+    text-decoration: none;
+    color: green;
+    padding-left: 15px;
+}
+
+footer .doc{
+    text-align: left;
+    margin-left: 50px;
+    position: relative;
+    bottom: 10px;
+}
+
+footer .social{
+    text-align: right;
+    margin-right: 120px;
+    position: relative;
+    bottom: 75px;
+}
+
+.doc h3{
+    margin-left: 100px;
+}
+
+.social h3{
+    margin-right: 50px;
+}
+
+.copyright{
+    text-align: center;
+    color: brown;
+}
+
+footer .contact{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+@media (max-width: 1080px) {
+
+    .navbar-brand{
+        position: relative;
+        bottom: 60px;
+    }
+
+    #navbarNavAltMarkup{
+        position: absolute;
+        left: 500px;
+        top: 10px;
+    }
+
+    .main-content .btn{
+        position: relative;
+        right: 250px;
+    }
+
+    .explore .btn{
+        position: relative;
+        right: 200px;
+    }
+}
+
+.html_form{
+    padding: 50px;
+    margin-left: 300px;
+}
+
+form{
+    margin: 20px;
+    padding: 20px;
+    box-shadow: 1px 1px 16px black;
+    border-radius: 10px;
+    width: 50%;
+    text-align: center;
+}
+
+form h2{
+    color: blue;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px;
+}
+
+form input, select{
+    width: 90%;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    border-left: 2px solid orange;
+}
+
+form input:focus, form select:focus {
+    border-left: 3px solid blue;
+}
+
+form button{
+    margin: 10px;
+    padding: 10px;
+    border: none;
+    background-color: orange;
+    color: blue;
+    font-weight: bold;
+    font-family: Verdana;
+    font-size: 12px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 8px black;
+}
+
